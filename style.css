@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url(thermal-sun.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content {
+    background-color: #fff;
+    height: 30rem;
+    width: 30rem;
+    margin: 6rem auto;
+    box-shadow: #456FA1;
+    border-radius: 15px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
+
+label {
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+
+}
+
+input {
+    height: 2rem;
+    width: 70%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    border: 2px solid #456FA1;
+}
+
+button {
+    background-color: #456FA1;
+    padding: 1rem 1.7rem;
+    border-radius: 14px;
+    border-color: transparent;
+    color: #fff;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #fff;
+    border: 2px solid #456FA1;
+    color: black;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+#converter_1 {
+    height: 2rem;
+    width: 60%;
+    font-size: large;
+    font-weight: 700;
+    font-style: oblique;
+    border-radius: 14px;
+    border: 2px solid #456FA1;
+    text-align: center;
+}
+
+#result {
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    font-weight: 800;
+    line-height: 0.5rem;
+}
+
+/* Media Query for responsiveness */
+@media (min-width: 1024px) {
+    #result {
+        margin-top: 1rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .content {
+        width: 90%;
+        padding: 1.5rem;
+        margin: 4rem auto;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    label {
+        font-size: 1.5rem;
+    }
+
+    input {
+        width: 70%;
+        height: 2.5rem;
+    }
+
+    button {
+        padding: 0.8rem 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    #converter_1 {
+        height: 2.2rem;
+        width: 65%;
+    }
+
+    #result {
+        font-size: medium;
+        line-height: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .content {
+        width: 95%;
+        padding: 1rem;
+        margin: 2rem auto;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    label {
+        font-size: 1.2rem;
+    }
+
+    input {
+        width: 95%;
+        height: 2.2rem;
+        font-size: 0.9rem;
+    }
+
+    button {
+        padding: 0.6rem 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    #converter_1 {
+        height: 2rem;
+        width: 80%;
+        font-size: medium;
+    }
+
+    #result {
+        font-size: small;
+        line-height: 1rem;
+    }
+}
